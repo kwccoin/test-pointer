@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     // printf("integerPointer() return code is %i", integerPointer());
     // printf("floatInteger()   return code is %i", floatPointer());
     printf("pointerStru()   return code is %i", struPointer());
-    
+     /* test git */
     
     return 0;
 
