@@ -13,17 +13,25 @@
 #include <stdio.h>
 #include "integerPointer.h"
 #include "floatPointer.h"
+#include "struPointer.h"  // strange it still function without htis include statement ???
+#include "struFPointer.h"
+#include "arrayPointer.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("testing pointers understanding! Main\n\n");
+    printf("testing pointers understanding! Main -- start -- \n\n");
     
     // not sure why you have this issue of declaration of function; function call ok but ...
     
     // printf("integerPointer() return code is %i", integerPointer());
-    // printf("floatInteger()   return code is %i", floatPointer());
-    printf("pointerStru()   return code is %i", struPointer());
-     /* test git commited via Xcode*/
+    // printf("floatPointer()   return code is %i", floatPointer());
+    // printf("struPointer()   return code is %i", struPointer());
+    // printf("struFPointer()   return code is %i", struFPointer());
+    printf("arrayPointer()   return code is %i", arrayPointer());
+    
+    printf("testing pointers understanding! Main --end-- \n\n");
+    
+    /* test git commited via Xcode*/
     
     return 0;
 

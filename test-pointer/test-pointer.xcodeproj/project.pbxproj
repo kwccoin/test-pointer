@@ -10,7 +10,9 @@
 		9352DC091F89B9ED0026BA59 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC081F89B9ED0026BA59 /* main.c */; };
 		9352DC111F89C96E0026BA59 /* integerPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC0F1F89C96E0026BA59 /* integerPointer.c */; };
 		9352DC141F89D37A0026BA59 /* floatPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC121F89D37A0026BA59 /* floatPointer.c */; };
-		9352DC191F89D9930026BA59 /* struFloater.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC171F89D9930026BA59 /* struFloater.c */; };
+		9352DC191F89D9930026BA59 /* struPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC171F89D9930026BA59 /* struPointer.c */; };
+		9352DC1C1F89F9CC0026BA59 /* struFPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC1A1F89F9CC0026BA59 /* struFPointer.c */; };
+		9352DC1F1F8A01900026BA59 /* arrayPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC1D1F8A01900026BA59 /* arrayPointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +34,12 @@
 		9352DC101F89C96E0026BA59 /* integerPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integerPointer.h; sourceTree = "<group>"; };
 		9352DC121F89D37A0026BA59 /* floatPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = floatPointer.c; sourceTree = "<group>"; };
 		9352DC131F89D37A0026BA59 /* floatPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = floatPointer.h; sourceTree = "<group>"; };
-		9352DC171F89D9930026BA59 /* struFloater.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struFloater.c; sourceTree = "<group>"; };
-		9352DC181F89D9930026BA59 /* struFloater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struFloater.h; sourceTree = "<group>"; };
+		9352DC171F89D9930026BA59 /* struPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struPointer.c; sourceTree = "<group>"; };
+		9352DC181F89D9930026BA59 /* struPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struPointer.h; sourceTree = "<group>"; };
+		9352DC1A1F89F9CC0026BA59 /* struFPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struFPointer.c; sourceTree = "<group>"; };
+		9352DC1B1F89F9CC0026BA59 /* struFPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struFPointer.h; sourceTree = "<group>"; };
+		9352DC1D1F8A01900026BA59 /* arrayPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arrayPointer.c; sourceTree = "<group>"; };
+		9352DC1E1F8A01900026BA59 /* arrayPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayPointer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				9352DC081F89B9ED0026BA59 /* main.c */,
+				9352DC1D1F8A01900026BA59 /* arrayPointer.c */,
+				9352DC1E1F8A01900026BA59 /* arrayPointer.h */,
 				9352DC0F1F89C96E0026BA59 /* integerPointer.c */,
 				9352DC101F89C96E0026BA59 /* integerPointer.h */,
 				9352DC121F89D37A0026BA59 /* floatPointer.c */,
 				9352DC131F89D37A0026BA59 /* floatPointer.h */,
-				9352DC171F89D9930026BA59 /* struFloater.c */,
-				9352DC181F89D9930026BA59 /* struFloater.h */,
+				9352DC171F89D9930026BA59 /* struPointer.c */,
+				9352DC181F89D9930026BA59 /* struPointer.h */,
+				9352DC1A1F89F9CC0026BA59 /* struFPointer.c */,
+				9352DC1B1F89F9CC0026BA59 /* struFPointer.h */,
 			);
 			path = "test-pointer";
 			sourceTree = "<group>";
@@ -135,9 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9352DC091F89B9ED0026BA59 /* main.c in Sources */,
-				9352DC191F89D9930026BA59 /* struFloater.c in Sources */,
+				9352DC191F89D9930026BA59 /* struPointer.c in Sources */,
 				9352DC111F89C96E0026BA59 /* integerPointer.c in Sources */,
+				9352DC1F1F8A01900026BA59 /* arrayPointer.c in Sources */,
 				9352DC141F89D37A0026BA59 /* floatPointer.c in Sources */,
+				9352DC1C1F89F9CC0026BA59 /* struFPointer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

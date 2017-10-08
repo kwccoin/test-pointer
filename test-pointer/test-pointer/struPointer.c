@@ -1,5 +1,5 @@
 //
-//  struFloater.c
+//  struPointer.c
 //  test-pointer
 //
 //  Created by blue5 on 8/10/2017.
@@ -8,11 +8,11 @@
 // http://www.c4learn.com/c-programming/c-pointer-to-structures/
 // http://www.cs.nyu.edu/courses/spring05/V22.0201-001/c_tutorial/classes/String.html
 
-#include "struFloater.h"
+#include "struPointer.h"
 #include <string.h>
 
 
-struct student_database
+struct student_database // this is not a typedef ... 
 {
     char name[10];
     int roll;
