@@ -64,6 +64,7 @@ int arrayPointer() {
     return 0;
 }
 
+/* error
 int myStrlen(char *s)
 { char *p = s;
     
@@ -71,6 +72,7 @@ int myStrlen(char *s)
     p++;
     return p-s;
 }
+ */
 
 // https://stackoverflow.com/questions/5350314/free-a-pointer-to-dynamic-array-in-c
 /*

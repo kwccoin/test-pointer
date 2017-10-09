@@ -13,6 +13,8 @@
 		9352DC191F89D9930026BA59 /* struPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC171F89D9930026BA59 /* struPointer.c */; };
 		9352DC1C1F89F9CC0026BA59 /* struFPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC1A1F89F9CC0026BA59 /* struFPointer.c */; };
 		9352DC1F1F8A01900026BA59 /* arrayPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC1D1F8A01900026BA59 /* arrayPointer.c */; };
+		937E96131F8B15D8002AA5B8 /* simuBlock1.c in Sources */ = {isa = PBXBuildFile; fileRef = 937E96111F8B15D8002AA5B8 /* simuBlock1.c */; };
+		937E96161F8B1618002AA5B8 /* blockPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 937E96141F8B1618002AA5B8 /* blockPointer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,10 @@
 		9352DC1B1F89F9CC0026BA59 /* struFPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = struFPointer.h; sourceTree = "<group>"; };
 		9352DC1D1F8A01900026BA59 /* arrayPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arrayPointer.c; sourceTree = "<group>"; };
 		9352DC1E1F8A01900026BA59 /* arrayPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayPointer.h; sourceTree = "<group>"; };
+		937E96111F8B15D8002AA5B8 /* simuBlock1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simuBlock1.c; sourceTree = "<group>"; };
+		937E96121F8B15D8002AA5B8 /* simuBlock1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simuBlock1.h; sourceTree = "<group>"; };
+		937E96141F8B1618002AA5B8 /* blockPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blockPointer.c; sourceTree = "<group>"; };
+		937E96151F8B1618002AA5B8 /* blockPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blockPointer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				9352DC081F89B9ED0026BA59 /* main.c */,
+				937E96111F8B15D8002AA5B8 /* simuBlock1.c */,
+				937E96141F8B1618002AA5B8 /* blockPointer.c */,
+				937E96151F8B1618002AA5B8 /* blockPointer.h */,
+				937E96121F8B15D8002AA5B8 /* simuBlock1.h */,
 				9352DC1D1F8A01900026BA59 /* arrayPointer.c */,
 				9352DC1E1F8A01900026BA59 /* arrayPointer.h */,
 				9352DC0F1F89C96E0026BA59 /* integerPointer.c */,
@@ -145,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9352DC091F89B9ED0026BA59 /* main.c in Sources */,
+				937E96131F8B15D8002AA5B8 /* simuBlock1.c in Sources */,
 				9352DC191F89D9930026BA59 /* struPointer.c in Sources */,
+				937E96161F8B1618002AA5B8 /* blockPointer.c in Sources */,
 				9352DC111F89C96E0026BA59 /* integerPointer.c in Sources */,
 				9352DC1F1F8A01900026BA59 /* arrayPointer.c in Sources */,
 				9352DC141F89D37A0026BA59 /* floatPointer.c in Sources */,

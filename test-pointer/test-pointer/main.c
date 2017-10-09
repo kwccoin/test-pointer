@@ -17,8 +17,13 @@
 #include "struFPointer.h"
 #include "arrayPointer.h"
 
+int xM = 88; /* in heap? address is 0x100003038  */
+
 int main(int argc, const char * argv[]) {
     // insert code here...
+    
+    int yM = 99; /* in stack? address is 0x7fff5fbff69c */
+    
     printf("testing pointers understanding! Main -- start -- \n\n");
     
     // not sure why you have this issue of declaration of function; function call ok but ...
@@ -27,7 +32,14 @@ int main(int argc, const char * argv[]) {
     // printf("floatPointer()   return code is %i", floatPointer());
     // printf("struPointer()   return code is %i", struPointer());
     // printf("struFPointer()   return code is %i", struFPointer());
-    printf("arrayPointer()   return code is %i", arrayPointer());
+    // printf("arrayPointer()   return code is %i", arrayPointer());
+    // simuBlock1 does not work as there is no callback.h
+       printf("blockPointer()   return code is %i", blockPointer());
+       printf("blockPointer()   return code is %i", blockPointer());
+
+    printf("\n\nxM  %i and xM  address is %p \n",xM,   (void *)&xM);
+    printf("\nyM  %i and yM  address is %p \n\n",yM,   (void *)&yM);
+
     
     printf("testing pointers understanding! Main --end-- \n\n");
     
