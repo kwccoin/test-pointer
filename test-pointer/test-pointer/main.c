@@ -8,6 +8,8 @@
 // https://users.cs.cf.ac.uk/Dave.Marshall/C/node10.html
 //
 // a better *ip print is to use C99 standard but not here : https://stackoverflow.com/questions/9053658/correct-format-specifier-to-print-pointer-address
+// *** actually 0x7fff 5fbf f69c is in heap
+// ***          0x1000 03038 ... not sure stack more (as past is 0x4 ...)
 
 
 #include <stdio.h>
@@ -17,12 +19,12 @@
 #include "struFPointer.h"
 #include "arrayPointer.h"
 
-int xM = 88; /* in heap? address is 0x100003038  */
+int xM = 88; /* in stack? address is 0x100003038  */
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    int yM = 99; /* in stack? address is 0x7fff5fbff69c */
+    int yM = 99; /* in heap? address is 0x7fff5fbff69c */
     
     printf("testing pointers understanding! Main -- start -- \n\n");
     
