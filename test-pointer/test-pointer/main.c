@@ -18,6 +18,8 @@
 #include "struPointer.h"  // strange it still function without htis include statement ???
 #include "struFPointer.h"
 #include "arrayPointer.h"
+#include "asmPointer.h"
+
 
 int xM = 88; /* in stack? address is 0x100003038  */
 
@@ -36,9 +38,11 @@ int main(int argc, const char * argv[]) {
     // printf("struFPointer()   return code is %i", struFPointer());
     // printf("arrayPointer()   return code is %i", arrayPointer());
     // simuBlock1 does not work as there is no callback.h
-       printf("blockPointer()   return code is %i", blockPointer());
-       printf("blockPointer()   return code is %i", blockPointer());
+    // printf("blockPointer()   return code is %i", blockPointer());
+    // printf("blockPointer()   return code is %i", blockPointer());
 
+    samPointer();
+    
     printf("\n\nxM  %i and xM  address is %p \n",xM,   (void *)&xM);
     printf("\nyM  %i and yM  address is %p \n\n",yM,   (void *)&yM);
 

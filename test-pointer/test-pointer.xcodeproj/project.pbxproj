@@ -15,6 +15,7 @@
 		9352DC1F1F8A01900026BA59 /* arrayPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9352DC1D1F8A01900026BA59 /* arrayPointer.c */; };
 		937E96131F8B15D8002AA5B8 /* simuBlock1.c in Sources */ = {isa = PBXBuildFile; fileRef = 937E96111F8B15D8002AA5B8 /* simuBlock1.c */; };
 		937E96161F8B1618002AA5B8 /* blockPointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 937E96141F8B1618002AA5B8 /* blockPointer.c */; };
+		93A6CB4B1F91AFFF00E43816 /* asmPointer.s in Sources */ = {isa = PBXBuildFile; fileRef = 93A6CB4A1F91AFFF00E43816 /* asmPointer.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		937E96121F8B15D8002AA5B8 /* simuBlock1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simuBlock1.h; sourceTree = "<group>"; };
 		937E96141F8B1618002AA5B8 /* blockPointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blockPointer.c; sourceTree = "<group>"; };
 		937E96151F8B1618002AA5B8 /* blockPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blockPointer.h; sourceTree = "<group>"; };
+		93A6CB4A1F91AFFF00E43816 /* asmPointer.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = asmPointer.s; sourceTree = "<group>"; };
+		93A6CB4C1F91B1AA00E43816 /* asmPointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asmPointer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				9352DC181F89D9930026BA59 /* struPointer.h */,
 				9352DC1A1F89F9CC0026BA59 /* struFPointer.c */,
 				9352DC1B1F89F9CC0026BA59 /* struFPointer.h */,
+				93A6CB4A1F91AFFF00E43816 /* asmPointer.s */,
+				93A6CB4C1F91B1AA00E43816 /* asmPointer.h */,
 			);
 			path = "test-pointer";
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9352DC091F89B9ED0026BA59 /* main.c in Sources */,
+				93A6CB4B1F91AFFF00E43816 /* asmPointer.s in Sources */,
 				937E96131F8B15D8002AA5B8 /* simuBlock1.c in Sources */,
 				9352DC191F89D9930026BA59 /* struPointer.c in Sources */,
 				937E96161F8B1618002AA5B8 /* blockPointer.c in Sources */,
