@@ -57,3 +57,4 @@ dkms.conf
 *.xcuserstate
 *.xcuserstate
 *.xcuserstate
+.DS_Store
