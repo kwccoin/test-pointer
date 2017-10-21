@@ -1,4 +1,5 @@
 # https://stackoverflow.com/questions/40621451/makefile-automatically-compile-all-c-files-keeping-o-files-in-separate-folde
+# .all
 
 SRC := src
 OBJ := obj
@@ -11,6 +12,6 @@ all: $(OBJECTS)
 
 $(OBJ)/%.o: $(SRC)/%.c
 	$(CC) -I$(SRC) -c $< -o $@
-
+	
 run: all
 	./all
