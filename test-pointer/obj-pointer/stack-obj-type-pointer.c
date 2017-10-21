@@ -71,7 +71,7 @@ void f_display(Stack *st) { // ? need to add f_ ??
 void f_display2(Stack *st) { // ? need to add f_ ??
    int i;
    for (i = st->top; i >= 0; i--)
-      printf("display2: %d\n", st->arr[i]);
+      printf("display2a: %d\n", st->arr[i]);
 }
  
 int main() {
